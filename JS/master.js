@@ -5381,7 +5381,7 @@ document.addEventListener("DOMContentLoaded", () => {
     !document.getElementById("profileBio") &&
     !document.getElementById("bioInput")
   )
-    return;
+    return;//t
   populateStunningProfileData();
   loadProfileExtended();
 });
